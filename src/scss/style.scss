@@ -6,6 +6,7 @@
 // Sections or Pages SCSS-files imports
 @import './header';
 @import './footer';
+@import './MainPage/slider';
 
 // Libs
-// @import './libs/swiper';
+@import './libs/swiper';
