@@ -61,18 +61,27 @@ function burgerMenu() {
   // Main page scripts
 
   if(document.querySelector('.main__body')){
-    const swiper = new Swiper('.main_slider', {
+    const swiper = new Swiper('.swiper', {
   
       // If we need pagination
-      // pagination: {
-      //   el: '.swiper-pagination',
-      // },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+
+      loop: true,
+      autoplay: {
+        enabled: true,
+        delay: 4000,
+        disableOnInteraction: false,
+      },
+      speed: 10000,
     
       // Navigation arrows
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
+      // navigation: {
+      //   nextEl: '.swiper-button-next',
+      //   prevEl: '.swiper-button-prev',
+      // },
     
       // And if we need scrollbar
       // scrollbar: {

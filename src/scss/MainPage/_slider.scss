@@ -1,3 +1,25 @@
-// width: 100%;
-// height: 100%;
-// object-fit: contain;
+.swiper {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.img-slider {
+}
+.swiper-pagination {
+    bottom: 0;
+}
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-style: 14px;
+    background-color: black;
+}
+
+.img-slider {
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
