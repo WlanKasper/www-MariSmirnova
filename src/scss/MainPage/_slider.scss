@@ -10,6 +10,7 @@
     bottom: 0;
 }
 .swiper-pagination-bullet {
+    object-fit: contain;
     width: 20px;
     height: 20px;
     line-height: 20px;

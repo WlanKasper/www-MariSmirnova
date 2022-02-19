@@ -60,7 +60,7 @@ function burgerMenu() {
         delay: 4000,
         disableOnInteraction: false,
       },
-      speed: 10000,
+      speed: 1000,
     
       // Navigation arrows
       // navigation: {

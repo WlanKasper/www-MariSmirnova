@@ -1,0 +1,42 @@
+
+.section {
+    // .section_info
+    &_info {
+        margin: 90px 200px;
+        height: 740px;
+    }
+}
+.container {
+    // .container_info
+    &_info {
+        
+    }
+}
+.info {
+    display: flex;
+    // .info_img
+    &_img {
+        width: 1050px;
+    }
+
+    // .info_block
+    &_block {
+        float: right;
+        padding: 50px;
+        background-color: $grayColor;
+        width: 630px;
+        height: 270px;
+    }
+}
+.block {
+    align-items: flex-end;
+    // .block_btn
+    &_btn {
+        
+        width: 200px;
+        height: 50px;
+    }
+}
+.btn {
+    margin: 15px 0;
+}

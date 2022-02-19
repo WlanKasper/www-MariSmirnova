@@ -84,7 +84,43 @@ body.locked {
 .btn {
   background: #111111;
   padding: 13px 46px;
+}
+
+h3 {
+  font-family: "Montserrat-M", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  color: #111111;
+}
+
+h4 {
+  font-family: "Montserrat-M", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.1em;
   color: #FFFFFF;
+}
+
+h5 {
+  font-family: "FuturaBookC-R", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 130%;
+  color: #111111;
+}
+
+hr {
+  width: 45px;
+  height: 3px;
+  margin: 15px 0;
+  background-color: #111111;
 }
 
 @-webkit-keyframes fade {
@@ -208,6 +244,8 @@ footer {
 }
 
 .swiper-pagination-bullet {
+  -o-object-fit: contain;
+     object-fit: contain;
   width: 20px;
   height: 20px;
   line-height: 20px;
@@ -221,6 +259,49 @@ footer {
   height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.section_info {
+  margin: 90px 200px;
+  height: 740px;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.info_img {
+  width: 1050px;
+}
+
+.info_block {
+  float: right;
+  padding: 50px;
+  background-color: #F4F4F4;
+  width: 630px;
+  height: 270px;
+}
+
+.block {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.block_btn {
+  width: 200px;
+  height: 50px;
+}
+
+.btn {
+  margin: 15px 0;
+}
+
+.section_video {
+  margin: 90px 200px;
+  height: 740px;
 }
 
 /**
