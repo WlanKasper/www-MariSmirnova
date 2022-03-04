@@ -9,11 +9,10 @@
 .container {
     // .container_info
     &_info {
-        
+        display: flex;
     }
 }
 .info {
-    display: flex;
     // .info_img
     &_img {
         width: 1050px;
